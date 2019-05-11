@@ -1,0 +1,83 @@
+body {
+  font-size: 44px;
+  font-family: "Comic Sans MS";
+}
+
+h1 {
+  font-size: 43px;
+  color: #808080;
+  text-align: center;
+}
+
+p {
+  font-size:20px;
+  color: #01712e;
+  text-align: center;
+}
+
+.button {
+  background-color: #808080; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.content {
+  max-width: 700px;
+  margin: auto;
+  margin-top:70px;
+  text-align: center
+}
+
+.tower {
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  margin-right: 15px;
+}
+
+.tower-pillar {
+  background-color: gray;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px 1px 0 1px;
+  display: inline-block;
+  vertical-align: bottom;
+  width: 20px;
+}
+
+.tower-base {
+  background-color: gray;
+  border: 1px solid black;
+  height: 20px;
+  vertical-align: bottom;
+}
+
+.disc-label {
+  pointer-events: none;
+  user-select: none;
+}
+
+.disc-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 0 22px 0;
+}
+
+.disc {
+  font-size: 13px;
+  height: 20px;
+  vertical-align: center;
+  background-color: cyan;
+  border: 1px solid black;
+  margin-bottom: -1px;
+}
